@@ -1,4 +1,4 @@
-# Web Enthusiast Club Recruitment Task
+# Web Enthusiastic Club Recruitment Task
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vijay-v-0889a1280/)
 
@@ -73,4 +73,53 @@ variable "environment" {
    default = "dev"
 }
 ```
+
+
+
+## Demo
+
+Task 1)
+Task 2)
+
+
+## Screenshots
+Architecture of the system
 ![image](./arch.png)
+
+Resources created in the Azure website
+![image](./All_resources.png)
+
+
+
+
+
+## Lessons Learned
+
+Throughout this project, I gained valuable experience in:
+
+- Understanding the core components of cloud architecture, including virtual networks, load balancers, and virtual machines.
+- Working with Terraform with azure to automate infrastructure deployment.
+- Troubleshooting common issues related to networking and resource allocation in Azure.
+- Enhancing skills in cloud infrastructure design, automation, and monitoring.
+
+## Documentation
+
+[Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
+
+[Terraform_2](https://developer.hashicorp.com/terraform/language)
+
+[public repo_1](https://github.com/hashicorp/terraform-provider-azurerm/tree/main/examples/virtual-machines/virtual_machine/2-vms-loadbalancer-lbrules)
+
+[LB_1](https://www.youtube.com/watch?v=SpSJZmaGvFk&ab_channel=AlanRodrigues)
+
+[LB_2](https://k21academy.com/microsoft-azure/architect/azure-load-balancer-step-by-step/)
+
+[LB_3](https://terraformguru.com/terraform-real-world-on-azure-cloud/14-Azure-Standard-LoadBalancer-Basic/)
+
+[Web_server_1](https://www.faizanbashir.me/building-an-nginx-webserver-on-azure-using-terraform)
+
+
+
+
+
+
