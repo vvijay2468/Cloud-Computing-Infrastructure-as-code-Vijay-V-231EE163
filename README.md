@@ -72,6 +72,5 @@ variable "environment" {
    description = "Environment"
    default = "dev"
 }
-
-
 ```
+![image](./arch.png)
