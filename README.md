@@ -74,6 +74,17 @@ variable "environment" {
 }
 ```
 
+## Architecture Overview
+
+The architecture involves the following key components:
+- **Resource Group**: Group for managing related resources.
+- **Virtual Network (VNet)**: A virtual network where the VMs are hosted.
+- **Availability Set**: Ensures high availability of the VMs by distributing them across different fault domains.
+- **Load Balancer**: Distributes traffic between the two VMs for improved availability and fault tolerance.
+- **Backend Pool**: Includes two VMs that will serve incoming traffic.
+- **Health Probes**: Used by the Load Balancer to check the health of VMs.
+- **Load Balancing Rules**: Define how traffic is distributed across the backend pool.
+
 ## Screenshots
 ### 1. Architecture of the system
 ![image](./photos/arch.png)
