@@ -103,6 +103,15 @@ for i in {1..10}; do curl http://<load-balancer-ip>; echo ""; done
 ![image](./photos/load_bal_1.png)
 ![image](./photos/load_bal_2.png)
 
+## Challenges Faced
+
+1. **Terraform Configuration**: One of the initial challenges was configuring the `.tf` files correctly to manage Azure resources. Ensuring that all dependencies were properly declared was crucial to the successful deployment of the infrastructure.
+
+2. **Load Balancer Setup**: Setting up the load balancer with correct health probes and backend pools took some trial and error. Initially, the VMs were not responding to the health probes due to incorrect configurations, which needed to be fixed.
+
+3. **Debugging Health Probe Issues**: During the setup, there were challenges related to configuring the health probes. Initially, traffic wasn’t being properly balanced because the health probe was misconfigured. After correcting the probe to point to the right port and protocol, the load balancing started working correctly.
+
+4. **Testing Load Balancer**: After deploying the infrastructure, testing load balancing required ensuring that both VMs were running correctly and that the load balancer distributed traffic evenly.
 
 
 ## Lessons Learned
