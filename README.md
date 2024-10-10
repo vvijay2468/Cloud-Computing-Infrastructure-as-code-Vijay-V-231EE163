@@ -74,22 +74,23 @@ variable "environment" {
 }
 ```
 
-
-
-## Demo
-
-Task 1)
-Task 2)
-
-
 ## Screenshots
-Architecture of the system
-![image](./arch.png)
+### 1. Architecture of the system
+![image](./photos/arch.png)
 
-Resources created in the Azure website
-![image](./All_resources.png)
+### 2. Resources created in the Azure website
+![image](./photos/All_resources.png)
 
+### 3. Load Balancer Traffic Distribution
+when run the following command
 
+```
+for i in {1..10}; do curl http://<load-balancer-ip>; echo ""; done
+
+```
+
+![image](./photos/load_bal_1.png)
+![image](./photos/load_bal_2.png)
 
 
 
